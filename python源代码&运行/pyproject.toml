@@ -1,0 +1,20 @@
+[project]
+name = "simpfun-port-scanner"
+version = "0.1.0"
+description = "A Minecraft server port scanner"
+authors = [
+  { name = "User", email = "user@example.com" }
+]
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.dependencies]
+mcstatus = ">=11.1.0"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

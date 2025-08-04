@@ -1,3 +1,4 @@
+# MIT License ,See https://github.com/Domdkw/simpfun-port-scanning/blob/master/LICENSE
 from mcstatus import JavaServer
 import csv
 import os
